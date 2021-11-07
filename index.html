@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Catch The Mouse</title>
+  </head>
+  <body>
+    <div class="screen backgroundimg">
+      <h1>Впоймай мышу</h1>
+      <button class="btn" id="start-btn">ИГРАТЬ</button>
+    </div>
+
+    <div class="screen">
+      <h1>Какая любимая мышь?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Черная</p>
+            <img src="https://pngimg.com/uploads/rat_mouse/rat_mouse_PNG23551.png" alt="fly">
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Белая</p>
+            <img
+               src="https://pngimg.com/uploads/rat_mouse/rat_mouse_PNG23530.png"
+               alt="mosquito"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Стоячая</p>
+            <img
+               src="https://pngimg.com/uploads/rat_mouse/rat_mouse_PNG23547.png"
+               alt="spider"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Смотрячая</p>
+            <img
+               src="https://pngimg.com/uploads/rat_mouse/rat_mouse_PNG23538.png"
+               alt="roach"
+               />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Время: 00:00</h3>
+      <h3 id="score" class="score">Очки: 0</h3>
+      <h5 id="message" class="message">
+        Увы, они будут размножаться <br>
+        Выиграть невожможно :)
+      </h5>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
